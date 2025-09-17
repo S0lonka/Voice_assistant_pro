@@ -1,0 +1,57 @@
+# =============== Общие ===============
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+.vs/
+
+# =============== C++ ===============
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.tlog
+*.lastbuildstate
+
+# =============== C# / .NET / MAUI ===============
+bin/
+obj/
+*.csproj.user
+*.razor.g.cs
+*.razor.g.less.cs
+*.g.cs
+*.g.i.cs
+*.generated.cs
+*.ComponentBase.cs
+*.netmodule
+
+# Android / iOS / MAUI специфичное
+[Dd]ebug*/
+[Rr]elease*/
+*.apk
+*.aab
+*.ipa
+*.app
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# =============== Секреты и конфиги ===============
+.env
+.env.local
+.env.*.local
+secrets.json
+appsettings.Development.json
+
+# =============== ОС и редакторы ===============
+.DS_Store
+Thumbs.db
